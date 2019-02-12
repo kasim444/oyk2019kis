@@ -13,7 +13,7 @@ class Article
 
     public function __construct()
     {
-        $this->con = new PDO("mysql:host=localhost;dbname=oyk19k_blog;charset=utf8mb4;", "root", "root");
+        $this->con = new PDO("mysql:host=localhost;dbname=oyk19k_blog;charset=utf8mb4;", "root", "");
     }
 
     public function save()
